@@ -1,0 +1,11 @@
+stubrunner:
+  ids: com.thoughtworks:contract:+:stubs:8998
+  stubsMode: LOCAL
+
+hlp:
+  product-server:
+    url: http://localhost:8998
+
+product-server:
+  ribbon:
+    listOfServers: localhost:8998
